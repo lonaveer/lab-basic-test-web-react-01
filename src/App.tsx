@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import LoginButton from './app/components/LoginButton';
+import { LoginForm } from './app/components/LoginForm';
 
 function App() {
   /* istanbul ignore next */
   return (
     <div className="App">
       <div className="App-header">
-        <LoginButton />
+        <LoginForm />
       </div>
     </div>
   );
